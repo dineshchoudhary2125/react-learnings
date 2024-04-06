@@ -1,9 +1,12 @@
-
+import Dinesh from "./dinesh"
 
 function App() {
 
   return (
-    <h1>Hello World</h1>
+    <>
+      <Dinesh />
+      <p>Hello app</p>
+    </>
   )
 }
 
