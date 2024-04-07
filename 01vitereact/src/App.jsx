@@ -1,11 +1,12 @@
 import Dinesh from "./dinesh"
 
 function App() {
+  const username = "chai aur code"
 
   return (
     <>
       <Dinesh />
-      <p>Hello app</p>
+      <p>Hello app {username}</p>
     </>
   )
 }
