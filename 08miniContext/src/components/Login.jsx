@@ -12,13 +12,15 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
+    <div className="mb-4 bg-blue-500 p-10 rounded-lg ">
+      <h2 className='text-3xl mb-4 text-black font-bold'>Login</h2>
       <input
         type="text"
         placeholder="username"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
+        className="w-64 h-12 px-4 mb-4 rounded border border-gray-300"
+
       />
       <br />
       <input
@@ -26,6 +28,7 @@ const Login = () => {
         placeholder="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
+        className="w-64 h-12 px-4 mb-4 rounded border border-gray-300"
       />
       <br />
       <button onClick={handleSubmit}>Submit</button>
