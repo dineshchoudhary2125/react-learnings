@@ -23,11 +23,11 @@ function App() {
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <div className="w-full">
         <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
-          <ThemeBtn /> {/* Assuming ThemeBtn is a valid component */}
+          <ThemeBtn /> 
         </div>
 
         <div className="w-full max-w-sm mx-auto">
-          <Card /> {/* Assuming Card is a valid component */}
+          <Card />
         </div>
       </div>
     </ThemeProvider>
